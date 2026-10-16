@@ -1,0 +1,243 @@
+{
+ "H0_index_formula": true,
+ "H1": {
+  "p": 0.1552295416888502,
+  "family_p": {
+   "mnist0123/cnn": 0.24755083279196777,
+   "mnist0123/mlp": 0.3606792290919468,
+   "fashion0123/cnn": 0.568875114490324,
+   "fashion0123/mlp": 0.9952367393995989,
+   "kmnist0123/cnn": 0.12778637401764056,
+   "kmnist0123/mlp": 0.6419117918153348,
+   "mnist4589/cnn": 0.025471811854779352,
+   "mnist4589/mlp": 0.24755083279196796
+  },
+  "counts": [
+   10,
+   14,
+   23,
+   20,
+   12,
+   10,
+   9,
+   14,
+   19,
+   9,
+   10,
+   17,
+   8,
+   18,
+   13,
+   15,
+   14,
+   13,
+   19,
+   12,
+   8,
+   13,
+   11,
+   9
+  ],
+  "passed": true
+ },
+ "H2": {
+  "mean_rho": -0.6927356226772821,
+  "negative": 317,
+  "positive": 3,
+  "p": 2.5569448260463265e-90,
+  "family_rho": {
+   "fashion0123/cnn": -0.8178454516428861,
+   "fashion0123/mlp": -0.8977570919477976,
+   "kmnist0123/cnn": -0.3129416556253779,
+   "kmnist0123/mlp": -0.5115872815593235,
+   "mnist0123/cnn": -0.6713501392033875,
+   "mnist0123/mlp": -0.5746156437598886,
+   "mnist4589/cnn": -0.865114712956314,
+   "mnist4589/mlp": -0.890673004723282
+  },
+  "passed": true,
+  "pixel_mean_rho": -0.6948781542579481
+ },
+ "H3": {
+  "rate": 0.8041666666666667,
+  "p": 3.0043466973450025e-104,
+  "rows": {
+   "fashion0123/cnn": {
+    "n": 40,
+    "predicted": "13",
+    "gap": 0.12811648657060276,
+    "decisive": false,
+    "hits": 12,
+    "hits_with_ties": 13.0,
+    "modal": [
+     "03"
+    ],
+    "pixel_pair": "13",
+    "pixel_hits": 12,
+    "other_net_pair": "13",
+    "other_net_hits": 12
+   },
+   "fashion0123/mlp": {
+    "n": 40,
+    "predicted": "13",
+    "gap": 0.2388643910503634,
+    "decisive": true,
+    "hits": 13,
+    "hits_with_ties": 14.0,
+    "modal": [
+     "03"
+    ],
+    "pixel_pair": "13",
+    "pixel_hits": 13,
+    "other_net_pair": "13",
+    "other_net_hits": 13
+   },
+   "kmnist0123/cnn": {
+    "n": 40,
+    "predicted": "12",
+    "gap": 0.4705649387148223,
+    "decisive": true,
+    "hits": 40,
+    "hits_with_ties": 40.0,
+    "modal": [
+     "12"
+    ],
+    "pixel_pair": "12",
+    "pixel_hits": 40,
+    "other_net_pair": "12",
+    "other_net_hits": 40
+   },
+   "kmnist0123/mlp": {
+    "n": 40,
+    "predicted": "12",
+    "gap": 1.7435562180292619,
+    "decisive": true,
+    "hits": 40,
+    "hits_with_ties": 40.0,
+    "modal": [
+     "12"
+    ],
+    "pixel_pair": "12",
+    "pixel_hits": 40,
+    "other_net_pair": "12",
+    "other_net_hits": 40
+   },
+   "mnist0123/cnn": {
+    "n": 40,
+    "predicted": "23",
+    "gap": 0.266081392978615,
+    "decisive": true,
+    "hits": 39,
+    "hits_with_ties": 39.0,
+    "modal": [
+     "23"
+    ],
+    "pixel_pair": "23",
+    "pixel_hits": 39,
+    "other_net_pair": "23",
+    "other_net_hits": 39
+   },
+   "mnist0123/mlp": {
+    "n": 40,
+    "predicted": "23",
+    "gap": 0.5674665580590608,
+    "decisive": true,
+    "hits": 27,
+    "hits_with_ties": 28.5,
+    "modal": [
+     "23"
+    ],
+    "pixel_pair": "23",
+    "pixel_hits": 27,
+    "other_net_pair": "23",
+    "other_net_hits": 27
+   },
+   "mnist4589/cnn": {
+    "n": 40,
+    "predicted": "03",
+    "gap": 0.1115058824636205,
+    "decisive": false,
+    "hits": 14,
+    "hits_with_ties": 15.0,
+    "modal": [
+     "12"
+    ],
+    "pixel_pair": "03",
+    "pixel_hits": 14,
+    "other_net_pair": "03",
+    "other_net_hits": 14
+   },
+   "mnist4589/mlp": {
+    "n": 40,
+    "predicted": "03",
+    "gap": 0.35242826766479574,
+    "decisive": true,
+    "hits": 34,
+    "hits_with_ties": 34.0,
+    "modal": [
+     "03"
+    ],
+    "pixel_pair": "03",
+    "pixel_hits": 34,
+    "other_net_pair": "03",
+    "other_net_hits": 34
+   }
+  },
+  "passed": true
+ },
+ "saddle_passage": {
+  "mnist0123/cnn": 0.85,
+  "mnist0123/mlp": 0.2,
+  "fashion0123/cnn": 0.0,
+  "fashion0123/mlp": 0.025,
+  "kmnist0123/cnn": 0.475,
+  "kmnist0123/mlp": 0.025,
+  "mnist4589/cnn": 0.175,
+  "mnist4589/mlp": 0.4
+ },
+ "stuck": [],
+ "benchmark": {
+  "fashion0123": {
+   "main": {
+    "cnn": 0.9846300000000001,
+    "mlp": 0.97865
+   },
+   "arm50": [
+    0.95649,
+    0.006769261407273315
+   ],
+   "neupsl": 0.74
+  },
+  "kmnist0123": {
+   "main": {
+    "cnn": 0.9678424999999999,
+    "mlp": 0.9538125
+   },
+   "arm50": [
+    0.9422899999999998,
+    0.00898370190956935
+   ],
+   "neupsl": 0.65
+  },
+  "mnist0123": {
+   "main": {
+    "cnn": 1.0,
+    "mlp": 0.9998025
+   },
+   "arm50": [
+    0.99896,
+    0.0013566134305689267
+   ],
+   "neupsl": 0.88
+  },
+  "mnist4589": {
+   "main": {
+    "cnn": 0.9999925000000001,
+    "mlp": 0.9999675
+   },
+   "arm50": null,
+   "neupsl": null
+  }
+ },
+ "verdict": "CONFIRMED"
+}

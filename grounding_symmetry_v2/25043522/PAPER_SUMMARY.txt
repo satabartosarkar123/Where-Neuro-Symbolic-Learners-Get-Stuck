@@ -1,0 +1,60 @@
+PAPER SUMMARY (standalone)  hf://buckets/APassionateResearchers/NeSy4/grounding_symmetry_v2/25043522  2026-10-13 17:09 UTC
+v2.1 laws (CNN, MNIST, plain NeSy; notebook-registered family, Holm 5%):
+   PASS          P1 achievability (no Theorem-B pairs, twin-class level) p=0.111 | 133/175 included (add, less, max, absdiff, eqmod3, parity, equal, petersen); H0 rate >= 0.8
+   PASS          P2 trap contrast (Fisher, off-optimum) p=0.00287 | with pairs 52/140 off optimum (52 trapped); without 39/175
+   PASS          P3 trap level (TOST, excess loss / Theorem-B level in [0.9, 1.1]) p=6.38e-33 | n=52, mean ratio 0.975 (sd 0.019)
+   VACUOUS       P4 anchors E3_summod5_nesy_anc01234 | |G|=1, 20/20 included, mean 0.991, 99% [nan, nan] -- vacuous (trivial group)
+   PASS          P4 anchors E3_summod5_nesy_anc01256 p=1 | |G|=4, 20/20 included, mean 0.992, 99% [0.992, 0.992]
+   PASS          P4 anchors E3_summod5_nesy_anc012 p=1 | |G|=4, 20/20 included, mean 0.991, 99% [0.991, 0.991]
+   VACUOUS       P4 anchors E3_parity_nesy_anc01234567 | |G|=1, 20/20 included, mean 0.994, 99% [nan, nan] -- vacuous (trivial group)
+   PASS          P4 anchors E3_parity_nesy_anc01234568 p=1 | |G|=2, 20/20 included, mean 0.993, 99% [0.993, 0.993]
+   PASS          P4 anchors E3_parity_nesy_anc0123 p=1 | |G|=36, 20/20 included, mean 0.992, 99% [0.992, 0.992]
+   VACUOUS       P4 anchors E3_petersen_nesy_anc023 | |G|=1, 5/20 included, mean 0.985, 99% [nan, nan] -- vacuous (trivial group)
+   NOT TESTABLE  P4 anchors E3_petersen_nesy_anc012 | |G|=2, 0/20 included, mean nan, 99% [nan, nan] -- not testable (< 3 included)
+   PASS          P4 anchors E3_petersen_nesy_anc02 p=1 | |G|=2, 5/20 included, mean 0.749, 99% [0.399, 0.984]
+   VACUOUS       P5 multi-task E7_mt_sum10_absdiff_nesy | |G|=1, 20/20 included, mean 0.991, 99% [nan, nan] -- vacuous (trivial group)
+   PASS          P5 multi-task E7_mt_sum10_diff10_nesy p=0.191 | |G|=2, 20/20 included, mean 0.348, 99% [0.200, 0.793]
+   PASS          P5 multi-task E7_mt_parity_petersen_nesy p=0.197 | |G|=4, 10/20 included, mean 0.614, 99% [0.297, 0.752]
+   PASS          P6 prior (post-hoc gauge fixing) E4_summod10_nesy_rho08 p=1 | error m=10:0.05 (bound 0.23), m=100:0.00 (bound 0.00), m=1000:0.00 (bound 0.00)
+   PASS          P6 prior (post-hoc gauge fixing) E4_absdiff_nesy_rho08 p=1 | error m=10:0.02 (bound 0.14), m=100:0.00 (bound 0.00), m=1000:0.00 (bound 0.00)
+   FAIL          P6 prior (post-hoc gauge fixing) E4_summod5_nesy_rho08 p=1.62e-08 | error m=10:0.56 (bound 1.00), m=100:0.08 (bound 0.49), m=1000:0.08 (bound 0.00)
+   FAIL          P6 prior (post-hoc gauge fixing) E4_parity_nesy_rho08 p=0 | error m=10:1.00 (bound 1.00), m=100:1.00 (bound 1.00), m=1000:1.00 (bound 0.37)
+   PASS          P7 support E6_add_nesy_evenodd p=1 | acc 0.036 vs Burnside(G_S) 1.000; Lambda(E) = 0.500 (|E| = 2)
+   PASS          P7 support E6_summod10_nesy_evenodd p=1 | acc 0.119 vs Burnside(G_S) 0.500; Lambda(E) = 0.500 (|E| = 2)
+   PASS          P7 support E6_absdiff_nesy_evenodd p=0.98 | acc 0.227 vs Burnside(G_S) 0.300; Lambda(E) = 0.300 (|E| = 8)
+   instrument checks 65/74 ok
+v2.1 Haar rows still OUTSIDE after amendment A5: none
+v2.1 full-run amendments (fresh seeds):
+   NOT CONFIRMED A1 off-optimum fresh seeds at an idealised critical level (>= 80%) p=0.0718 | 25/27 match; misses: equal 0.033, equal 0.037
+   PASS          A2 Theorem-B level on fresh seeds (TOST, ratio in [0.9, 1.1]) p=3.09e-15 | n=25, mean ratio 0.965 (sd 0.019)
+   NOT CONFIRMED A3 achievability, fresh seeds of programs with no idealised traps (>= 80%) p=0.0902 | 40/45 reach the optimum inside the twin-class closure (max 5/5, equal 18/20, eqmod3 17/20)
+   NOT TESTABLE  P5 multi-task E7_mt_sum10_absdiff_nesy | |G|=1, 20/20 included, mean 0.991, 99% [nan, nan] -- vacuous (trivial group)
+   PASS          P5 multi-task E7_mt_sum10_diff10_nesy p=0.191 | |G|=2, 20/20 included, mean 0.348, 99% [0.200, 0.793]
+   PASS          P5 multi-task E7_mt_parity_petersen_nesy p=0.197 | |G|=4, 10/20 included, mean 0.614, 99% [0.297, 0.752]
+   PASS          P6 prior (post-hoc gauge fixing) E4_summod10_nesy_rho08 p=1 | error m=10:0.05 (bound 0.23), m=100:0.00 (bound 0.00), m=1000:0.00 (bound 0.00)
+   PASS          P6 prior (post-hoc gauge fixing) E4_absdiff_nesy_rho08 p=1 | error m=10:0.02 (bound 0.14), m=100:0.00 (bound 0.00), m=1000:0.00 (bound 0.00)
+   FAIL          P6 prior (post-hoc gauge fixing) E4_summod5_nesy_rho08 p=1.62e-08 | error m=10:0.56 (bound 1.00), m=100:0.08 (bound 0.49), m=1000:0.08 (bound 0.00)
+   FAIL          P6 prior (post-hoc gauge fixing) E4_parity_nesy_rho08 p=0 | error m=10:1.00 (bound 1.00), m=100:1.00 (bound 1.00), m=1000:1.00 (bound 0.37)
+   PASS          P7 support E6_add_nesy_evenodd p=1 | acc 0.036 vs Burnside(G_S) 1.000; Lambda(E) = 0.500 (|E| = 2)
+   PASS          P7 support E6_summod10_nesy_evenodd p=1 | acc 0.119 vs Burnside(G_S) 0.500; Lambda(E) = 0.500 (|E| = 2)
+   PASS          P7 support E6_absdiff_nesy_evenodd p=0.98 | acc 0.227 vs Burnside(G_S) 0.300; Lambda(E) = 0.300 (|E| = 8)
+v2.2 relabelled Petersen + MLP: T1-T5 verdicts were printed by cell C (CONFIRMED on GPU, 2026-10-12); 136 unit files in the run folder
+v2.3 robustness (4 datasets x 2 nets x 3 programs):
+   tests: {"S1": true, "S2": true, "S3": true, "L": true, "D": false, "O": {"petersen": true, "crown": true, "cycle10": true}}
+   status: {"mnist": "done", "fashion": "done", "kmnist": "done", "svhn": "done"}
+v2.4 4x4 visual Sudoku:
+   H0_index_formula: true
+   H1: {"p": 0.1552295416888502, "family_p": {"mnist0123/cnn": 0.24755083279196777, "mnist0123/mlp": 0.3606792290919468, "fashion0123/cnn": 0.568875114490324, "fashion0123/mlp": 0.9952367393995989, "kmnist0123/cnn": 0.12778637401764056, "kmnist0123/mlp": 0.6419117918153348, "mnist4589/cnn": 0.025471811854779352, "mnist4589/mlp": 0.24755083279196796}, "counts": [10, 14, 23, 20, 12, 10, 9, 14, 19, 9, 10, 17, 8, 18, 13, 15, 14, 13, 19, 12, 8, 13, 11, 9], "passed": true}
+   H2: {"mean_rho": -0.6927356226772821, "negative": 317, "positive": 3, "p": 2.5569448260463265e-90, "family_rho": {"fashion0123/cnn": -0.8178454516428861, "fashion0123/mlp": -0.8977570919477976, "kmnist0123/cnn": -0.3129416556253779, "kmnist0123/mlp": -0.5115872815593235, "mnist0123/cnn": -0.6713501392033875, "mnist0123/mlp": -0.5746156437598886, "mnist4589/cnn": -0.865114712956314, "mnist4589/mlp": -0.890673004723282}, "passed": true, "pixel_mean_rho": -0.6948781542579481}
+   H3: {"rate": 0.8041666666666667, "p": 3.0043466973450025e-104, "rows": {"fashion0123/cnn": {"n": 40, "predicted": "13", "gap": 0.12811648657060276, "decisive": false, "hits": 12, "hits_with_ties": 13.0, "modal": ["03"], "pixel_pair": "13", "pixel_hits": 12, "other_net_pair": "13", "other_net_hits": 12}, "fashion0123/mlp": {"n": 40, "predicted": "13", "gap": 0.2388643910503634, "decisive": true, "hits": 13, "hits_with_ties": 14.0, "modal": ["03"], "pixel_pair": "13", "pixel_hits": 13, "other_net_pair": "13", "other_net_hits": 13}, "kmnist0123/cnn": {"n": 40, "predicted": "12", "gap": 0.470564938714
+   verdict: "CONFIRMED"
+   benchmark: {"fashion0123": {"main": {"cnn": 0.9846300000000001, "mlp": 0.97865}, "arm50": [0.95649, 0.006769261407273315], "neupsl": 0.74}, "kmnist0123": {"main": {"cnn": 0.9678424999999999, "mlp": 0.9538125}, "arm50": [0.9422899999999998, 0.00898370190956935], "neupsl": 0.65}, "mnist0123": {"main": {"cnn": 1.0, "mlp": 0.9998025}, "arm50": [0.99896, 0.0013566134305689267], "neupsl": 0.88}, "mnist4589": {"main": {"cnn": 0.9999925000000001, "mlp": 0.9999675}, "arm50": null, "neupsl": null}}
+v2.5 9x9 visual Sudoku + transfer:
+   J1: {"p": 0.9819430377679494, "family_p": {"mnist/cnn": 0.8678073234304801, "mnist/mlp": 0.7265530888007845, "fashion/cnn": 0.9659620962030482, "fashion/mlp": 0.35527447900126324, "kmnist/cnn": 0.9829487981653255, "kmnist/mlp": 0.407575596087405}, "table": [[29.0, 28.0, 24.0, 26.0, 23.0, 29.0, 23.0, 21.0, 34.0], [24.0, 28.0, 27.0, 29.0, 33.0, 22.0, 24.0, 29.0, 21.0], [24.0, 25.0, 32.0, 24.0, 24.0, 34.0, 23.0, 26.0, 25.0], [31.0, 27.0, 22.0, 28.0, 23.0, 25.0, 26.0, 27.0, 28.0], [29.0, 26.0, 23.0, 31.0, 22.0, 27.0, 29.0, 21.0, 29.0], [25.0, 26.0, 27.0, 23.0, 29.0, 30.0, 34.0, 19.0, 24.0], [33.0, 28.
+   J2: {"mean_rho": -0.6820430333228403, "negative": 237, "positive": 0, "p": 4.527839539413356e-72, "family_rho": {"fashion/cnn": -0.8105095427598515, "fashion/mlp": -0.9105425167517905, "kmnist/cnn": -0.7195674542551561, "kmnist/mlp": -0.5007709454911637, "mnist/cnn": -0.6024222666818024, "mnist/mlp": -0.5580804622050526}, "pixel_mean_rho": -0.7225061900858544, "other_net_mean_rho": -0.677578554695418, "passed": true}
+   J3: {"rate": 0.6521800281293952, "p": 1.2007208775940713e-104, "rows": {"fashion/cnn": {"n": 37, "predicted": ["46", "06", "26"], "hits": 35.0, "pixel_top3": ["24", "46", "26"], "pixel_hits": 37.0, "modal": [["46", 21], ["26", 16], ["24", 2]]}, "fashion/mlp": {"n": 40, "predicted": ["46", "06", "24"], "hits": 11.0, "pixel_top3": ["24", "46", "26"], "pixel_hits": 40.0, "modal": [["26", 29], ["24", 10], ["46", 1]]}, "kmnist/cnn": {"n": 40, "predicted": ["26", "16", "18"], "hits": 18.5, "pixel_top3": ["12", "26", "18"], "pixel_hits": 19.833333333333332, "modal": [["28", 17], ["18", 11], ["26", 8]]}, 
+   J4: {"n_transfer": 40, "n_plain": 40, "spearman": -0.5680823680823681, "p": 0.0448955104489551, "rho_transfer_kernel": -0.714077179002518, "rho_plain_kernel": -0.688577157890908, "rho_pixel": -0.6389345307847513, "last_hits": 11.5, "passed": false}
+   verdict: "CONFIRMED"
+   benchmark: {"fashion": {"splits": 10, "puzzle_acc": [0.815, 0.82, 0.855, 0.835, 0.805, 0.83, 0.84, 0.84, 0.825, 0.805], "auroc": [0.9091, 0.9038, 0.929, 0.9062, 0.9101, 0.9021, 0.9221, 0.9178, 0.9142, 0.9109], "main_auroc": {"cnn": 0.9351475, "mlp": 0.93545}, "anesi": null}, "kmnist": {"splits": 10, "puzzle_acc": [0.565, 0.63, 0.6, 0.565, 0.555, 0.655, 0.71, 0.76, 0.635, 0.63], "auroc": [0.8174, 0.8758, 0.7943, 0.8647, 0.831, 0.8776, 0.8228, 0.8692, 0.8092, 0.7935], "main_auroc": {"cnn": 0.89846, "mlp": 0.8462949999999999}, "anesi": null}, "mnist": {"splits": 10, "puzzle_acc": [0.95, 0.935, 0.935, 0.915,
+v2.6 fold minima (entropy anneal): no results in the bucket
+v2.7 released ViSudo-PC files: no results in the bucket

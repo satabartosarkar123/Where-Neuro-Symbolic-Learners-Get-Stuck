@@ -1,0 +1,37 @@
+{
+ "K1": {
+  "r15": [
+   0.45,
+   180
+  ],
+  "plain": [
+   0.25,
+   180
+  ],
+  "rescued": 60,
+  "lost": 24,
+  "p": 5.357384179233576e-05,
+  "families_ok": 4,
+  "passed": false
+ },
+ "K2": {
+  "rates": {
+   "frozen0": 0.11666666666666667,
+   "r06": 0.4111111111111111,
+   "r10": 0.4888888888888889,
+   "r15": 0.45
+  },
+  "plain": 0.25,
+  "trend_p": 1.9703390361377887e-12,
+  "freezing_alone_ok": true,
+  "passed": true
+ },
+ "K3": {
+  "frac": 0.6083333333333333,
+  "median": 0.5353902473357657,
+  "n": 360,
+  "lam_ratio_median": 0.475,
+  "passed": false
+ },
+ "verdict": "NOT CONFIRMED"
+}

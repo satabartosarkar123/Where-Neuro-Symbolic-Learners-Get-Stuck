@@ -1,0 +1,262 @@
+{
+ "tests": {
+  "S1": true,
+  "S2": true,
+  "S3": true,
+  "L": true,
+  "D": false,
+  "O": {
+   "petersen": true,
+   "crown": true,
+   "cycle10": true
+  }
+ },
+ "cells": [
+  {
+   "ds": "mnist",
+   "net": "cnn",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 28,
+   "dec": 22,
+   "mean_u": 0.11590909090909088,
+   "slow_rate": 0.0040930272405687515
+  },
+  {
+   "ds": "mnist",
+   "net": "cnn",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 37,
+   "dec": 16,
+   "mean_u": 0.14583333333333331,
+   "slow_rate": 0.0019608819484860877
+  },
+  {
+   "ds": "mnist",
+   "net": "cnn",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 37,
+   "dec": 2,
+   "mean_u": 0.5,
+   "slow_rate": 0.003811613789589481
+  },
+  {
+   "ds": "mnist",
+   "net": "mlp",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 3,
+   "dec": 3,
+   "mean_u": 0.09444444444444444,
+   "slow_rate": 0.012417646340118844
+  },
+  {
+   "ds": "mnist",
+   "net": "mlp",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 30,
+   "dec": 21,
+   "mean_u": 0.13492063492063494,
+   "slow_rate": 0.0054739881259198535
+  },
+  {
+   "ds": "mnist",
+   "net": "mlp",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 26,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.011383249715395324
+  },
+  {
+   "ds": "fashion",
+   "net": "cnn",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 1,
+   "dec": 1,
+   "mean_u": 0.05,
+   "slow_rate": 0.0026585066121945188
+  },
+  {
+   "ds": "fashion",
+   "net": "cnn",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 37,
+   "dec": 8,
+   "mean_u": 0.05,
+   "slow_rate": 0.0012076575763832415
+  },
+  {
+   "ds": "fashion",
+   "net": "cnn",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 32,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.0030063839044858222
+  },
+  {
+   "ds": "fashion",
+   "net": "mlp",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 4,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.008347363909771293
+  },
+  {
+   "ds": "fashion",
+   "net": "mlp",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 30,
+   "dec": 15,
+   "mean_u": 0.07666666666666669,
+   "slow_rate": 0.003621585464098329
+  },
+  {
+   "ds": "fashion",
+   "net": "mlp",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 32,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.009327386599101097
+  },
+  {
+   "ds": "kmnist",
+   "net": "cnn",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 1,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.0035259783029185773
+  },
+  {
+   "ds": "kmnist",
+   "net": "cnn",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 28,
+   "dec": 19,
+   "mean_u": 0.17368421052631577,
+   "slow_rate": 0.0012887131545421065
+  },
+  {
+   "ds": "kmnist",
+   "net": "cnn",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 31,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.0028843212823114295
+  },
+  {
+   "ds": "kmnist",
+   "net": "mlp",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 0,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.015635160249643763
+  },
+  {
+   "ds": "kmnist",
+   "net": "mlp",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 19,
+   "dec": 13,
+   "mean_u": 0.17307692307692304,
+   "slow_rate": 0.006330907316751549
+  },
+  {
+   "ds": "kmnist",
+   "net": "mlp",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 33,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.012259018348663902
+  },
+  {
+   "ds": "svhn",
+   "net": "cnn",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 40,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.0007608015395477894
+  },
+  {
+   "ds": "svhn",
+   "net": "cnn",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 40,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.0003727550666296137
+  },
+  {
+   "ds": "svhn",
+   "net": "cnn",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 40,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.0006790934944740912
+  },
+  {
+   "ds": "svhn",
+   "net": "mlp",
+   "prog": "petersen",
+   "n": 40,
+   "stuck": 40,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.004415105010357914
+  },
+  {
+   "ds": "svhn",
+   "net": "mlp",
+   "prog": "crown",
+   "n": 40,
+   "stuck": 40,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.001914992696644202
+  },
+  {
+   "ds": "svhn",
+   "net": "mlp",
+   "prog": "cycle10",
+   "n": 40,
+   "stuck": 40,
+   "dec": 0,
+   "mean_u": NaN,
+   "slow_rate": 0.004119621675901632
+  }
+ ],
+ "status": {
+  "mnist": "done",
+  "fashion": "done",
+  "kmnist": "done",
+  "svhn": "done"
+ }
+}

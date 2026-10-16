@@ -1,0 +1,44 @@
+[v25] Imnistcnn_s0-19: 59s, learned 1.00, symbol acc 0.990, test AuROC 0.995, elapsed 1 min
+[v25] Imnistcnn_s20-39: 52s, learned 1.00, symbol acc 0.989, test AuROC 0.996, elapsed 2 min
+[v25] Imnistmlp_s0-19: 9s, learned 1.00, symbol acc 0.981, test AuROC 0.985, elapsed 2 min
+[v25] Imnistmlp_s20-39: 9s, learned 1.00, symbol acc 0.980, test AuROC 0.982, elapsed 2 min
+[v25] Imnistcnnpre_s0-19: 54s, learned 1.00, symbol acc 0.991, test AuROC 0.997, elapsed 3 min
+[v25] Imnistcnnpre_s20-39: 54s, learned 1.00, symbol acc 0.991, test AuROC 0.998, elapsed 4 min
+[v25] Imnistbench_split0: 5s, learned 1.00, symbol acc 0.984, test AuROC 0.989, puzzle accuracy 0.950, elapsed 4 min
+[v25] Imnistbench_split1: 5s, learned 1.00, symbol acc 0.984, test AuROC 0.987, puzzle accuracy 0.935, elapsed 4 min
+[v25] Imnistbench_split2: 5s, learned 1.00, symbol acc 0.981, test AuROC 0.982, puzzle accuracy 0.935, elapsed 4 min
+[v25] Imnistbench_split3: 5s, learned 1.00, symbol acc 0.983, test AuROC 0.985, puzzle accuracy 0.915, elapsed 4 min
+[v25] Imnistbench_split4: 5s, learned 1.00, symbol acc 0.984, test AuROC 0.989, puzzle accuracy 0.945, elapsed 5 min
+[v25] Imnistbench_split5: 5s, learned 1.00, symbol acc 0.986, test AuROC 0.992, puzzle accuracy 0.950, elapsed 5 min
+[v25] Imnistbench_split6: 5s, learned 1.00, symbol acc 0.984, test AuROC 0.985, puzzle accuracy 0.905, elapsed 5 min
+[v25] Imnistbench_split7: 5s, learned 1.00, symbol acc 0.983, test AuROC 0.980, puzzle accuracy 0.925, elapsed 5 min
+[v25] Imnistbench_split8: 5s, learned 1.00, symbol acc 0.983, test AuROC 0.987, puzzle accuracy 0.940, elapsed 5 min
+[v25] Imnistbench_split9: 5s, learned 1.00, symbol acc 0.983, test AuROC 0.989, puzzle accuracy 0.945, elapsed 5 min
+[v25] Ifashioncnn_s0-19: 52s, learned 0.00, symbol acc 0.868, test AuROC 0.932, elapsed 6 min
+[v25] Ifashioncnn_s20-39: 52s, learned 0.00, symbol acc 0.875, test AuROC 0.938, elapsed 7 min
+[v25] Ifashionmlp_s0-19: 9s, learned 0.00, symbol acc 0.873, test AuROC 0.938, elapsed 7 min
+[v25] Ifashionmlp_s20-39: 9s, learned 0.00, symbol acc 0.875, test AuROC 0.933, elapsed 7 min
+[v25] Ifashionbench_split0: 5s, learned 0.00, symbol acc 0.862, test AuROC 0.909, puzzle accuracy 0.815, elapsed 7 min
+[v25] Ifashionbench_split1: 5s, learned 0.00, symbol acc 0.849, test AuROC 0.904, puzzle accuracy 0.820, elapsed 7 min
+[v25] Ifashionbench_split2: 5s, learned 0.00, symbol acc 0.861, test AuROC 0.929, puzzle accuracy 0.855, elapsed 7 min
+[v25] Ifashionbench_split3: 5s, learned 0.00, symbol acc 0.862, test AuROC 0.906, puzzle accuracy 0.835, elapsed 8 min
+[v25] Ifashionbench_split4: 5s, learned 0.00, symbol acc 0.863, test AuROC 0.910, puzzle accuracy 0.805, elapsed 8 min
+[v25] Ifashionbench_split5: 5s, learned 0.00, symbol acc 0.856, test AuROC 0.902, puzzle accuracy 0.830, elapsed 8 min
+[v25] Ifashionbench_split6: 5s, learned 0.00, symbol acc 0.868, test AuROC 0.922, puzzle accuracy 0.840, elapsed 8 min
+[v25] Ifashionbench_split7: 5s, learned 0.00, symbol acc 0.862, test AuROC 0.918, puzzle accuracy 0.840, elapsed 8 min
+[v25] Ifashionbench_split8: 5s, learned 0.00, symbol acc 0.866, test AuROC 0.914, puzzle accuracy 0.825, elapsed 8 min
+[v25] Ifashionbench_split9: 5s, learned 0.00, symbol acc 0.863, test AuROC 0.911, puzzle accuracy 0.805, elapsed 8 min
+[v25] Ikmnistcnn_s0-19: 52s, learned 0.95, symbol acc 0.913, test AuROC 0.896, elapsed 9 min
+[v25] Ikmnistcnn_s20-39: 52s, learned 0.90, symbol acc 0.915, test AuROC 0.901, elapsed 10 min
+[v25] Ikmnistmlp_s0-19: 9s, learned 0.00, symbol acc 0.893, test AuROC 0.854, elapsed 10 min
+[v25] Ikmnistmlp_s20-39: 9s, learned 0.00, symbol acc 0.887, test AuROC 0.839, elapsed 10 min
+[v25] Ikmnistbench_split0: 5s, learned 0.00, symbol acc 0.862, test AuROC 0.817, puzzle accuracy 0.565, elapsed 10 min
+[v25] Ikmnistbench_split1: 5s, learned 0.00, symbol acc 0.877, test AuROC 0.876, puzzle accuracy 0.630, elapsed 10 min
+[v25] Ikmnistbench_split2: 5s, learned 0.00, symbol acc 0.863, test AuROC 0.794, puzzle accuracy 0.600, elapsed 11 min
+[v25] Ikmnistbench_split3: 5s, learned 0.00, symbol acc 0.845, test AuROC 0.865, puzzle accuracy 0.565, elapsed 11 min
+[v25] Ikmnistbench_split4: 5s, learned 0.00, symbol acc 0.856, test AuROC 0.831, puzzle accuracy 0.555, elapsed 11 min
+[v25] Ikmnistbench_split5: 5s, learned 0.00, symbol acc 0.876, test AuROC 0.878, puzzle accuracy 0.655, elapsed 11 min
+[v25] Ikmnistbench_split6: 5s, learned 0.00, symbol acc 0.868, test AuROC 0.823, puzzle accuracy 0.710, elapsed 11 min
+[v25] Ikmnistbench_split7: 5s, learned 0.00, symbol acc 0.868, test AuROC 0.869, puzzle accuracy 0.760, elapsed 11 min
+[v25] Ikmnistbench_split8: 5s, learned 0.00, symbol acc 0.877, test AuROC 0.809, puzzle accuracy 0.635, elapsed 11 min
+[v25] Ikmnistbench_split9: 5s, learned 0.00, symbol acc 0.869, test AuROC 0.793, puzzle accuracy 0.630, elapsed 11 min

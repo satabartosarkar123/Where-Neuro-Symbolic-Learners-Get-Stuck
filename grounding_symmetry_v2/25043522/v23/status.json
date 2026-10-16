@@ -1,0 +1,6 @@
+{
+ "mnist": "done",
+ "fashion": "done",
+ "kmnist": "done",
+ "svhn": "done"
+}

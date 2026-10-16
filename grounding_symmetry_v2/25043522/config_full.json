@@ -1,0 +1,26 @@
+{
+ "cfg": {
+  "scale": "full",
+  "dataset": "mnist",
+  "net": "cnn",
+  "seed0": 1000,
+  "bank": 20,
+  "smoke_seeds": 3,
+  "epochs": 10,
+  "n_train_pairs": 30000,
+  "n_test_pairs": 5000,
+  "batch": 256,
+  "lr": 0.001,
+  "reground_epochs": [
+   3,
+   6
+  ],
+  "reground_pairs": 4000,
+  "lam_prior": 1.0,
+  "lam_anchor": 1.0,
+  "anchor_m": 5,
+  "bf16": false,
+  "gauge_R": 200
+ },
+ "dataset": "mnist"
+}
